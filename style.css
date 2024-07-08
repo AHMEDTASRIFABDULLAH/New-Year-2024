@@ -1,0 +1,458 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather, Inter", sans-serif;
+}
+.hero {
+  background-image: url(images/Banner\ Image.png);
+  width: 1320px;
+  height: 600px;
+  display: block;
+  border-radius: 16px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.cover {
+  background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.text {
+  display: block;
+  gap: 16px;
+}
+.hero h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 400;
+}
+.hero h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: 900;
+}
+.hero h3 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: 900;
+}
+.happy {
+  margin-top: 120px;
+}
+.happy h1 {
+  text-align: center;
+  color: red;
+  font-size: 88px;
+  font-weight: 700;
+  font-family: Inter;
+}
+.happy h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 48px;
+  font-family: Inter;
+}
+.happy h3 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 16px;
+  font-family: Inter;
+}
+.happyhero {
+  width: 802.9px;
+  height: 500px;
+  background-image: url(images/New\ Year\ Photo.png);
+  display: block;
+}
+.her {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+.img3 {
+  background-image: url(images/Vectorrr.png);
+  width: 1320px;
+  height: 600px;
+}
+.he {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.cover2 {
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.g70 {
+  background-image: url(images/Group\ 70.png);
+  background-position: right;
+  margin-right: 108px;
+  background-repeat: no-repeat;
+}
+.text2 {
+  margin-left: 126px;
+}
+.text2 h1 {
+  font-size: 64px;
+  font-weight: 900;
+  color: #ffffff;
+}
+.text2 h2 {
+  font-size: 64px;
+  font-weight: 900;
+  color: #ffffff;
+}
+.text2 p {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 24px;
+}
+.text2 h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 48px;
+  margin-left: 32px;
+}
+.textp p {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.textp p span {
+  color: red;
+}
+.textp {
+  margin-top: 220px;
+}
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 230px;
+}
+.three {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1320px;
+  height: 463px;
+}
+.redi {
+  height: 463px;
+  width: 463px;
+  border-radius: 50%;
+  border: 15px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+}
+.img {
+  background-image: url(images/Ellipse\ 1.png);
+  width: 364.84px;
+  height: 364.84px;
+  background-repeat: no-repeat;
+}
+.right {
+  width: 394px;
+  margin-top: 112px;
+  margin-left: 118px;
+}
+.right p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+.right h1 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.center {
+  width: 463px;
+}
+.left {
+  display: block;
+  margin-top: 104px;
+  width: 463px;
+}
+.left h1 {
+  color: red;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.left p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.6);
+  margin-bottom: 22px;
+}
+.left h2 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.image {
+  background-image: url(images/Group\ 96.png);
+  width: 140px;
+  height: 140px;
+  background-size: cover;
+  margin-top: 43px;
+}
+.textsections {
+  display: flex;
+  justify-content: center;
+}
+.selltext {
+  text-align: center;
+  width: 1320px;
+}
+.selltext h1 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 120px;
+  color: rgb(7, 2, 17);
+}
+.selltext h2 {
+  font-size: 72px;
+  font-weight: 900;
+  margin-top: 45px;
+}
+.selltext p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 28px;
+  color: rgba(7, 2, 17, 0.6);
+}
+.selltext span {
+  color: red;
+}
+.dsection {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}
+.discount {
+  width: 1320px;
+  height: 662.07px;
+  position: relative;
+}
+.fimage {
+  position: absolute;
+  top: 433px;
+}
+.gimage {
+  position: relative;
+}
+.disco {
+  position: absolute;
+  left: 1020px;
+  top: 77px;
+}
+.produ {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.product {
+  width: 1320px;
+}
+.product h1 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.product h2 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+  font-family: Merriweather;
+}
+.product p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+.gpro {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+.gpro2 {
+  display: flex;
+  justify-content: space-between;
+  width: 1320px;
+}
+.gprof {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.email {
+  width: 1320px;
+  height: 616px;
+  text-align: center;
+}
+.email img {
+  margin-top: 80px;
+}
+.email h1 {
+  margin-top: 40px;
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+}
+.email p {
+  margin-top: 22px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.search button {
+  width: 210px;
+  height: 72px;
+  border: none;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  font-size: 24px;
+  background-color: red;
+  color: #ffffff;
+  font-family: Inter;
+}
+.search input[type="text"] {
+  width: 438px;
+  height: 72px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background: rgb(229, 226, 226);
+  border: none;
+}
+.search input::placeholder {
+  padding: 25px 0px 25px 30px;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+}
+.search {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  min-width: 100%;
+  height: 609px;
+  background-color: #20020f;
+  position: relative;
+}
+footer .one {
+  position: absolute;
+  color: #ffffff;
+  top: 120px;
+  left: 140px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+footer .two {
+  position: absolute;
+  color: #ffffff;
+  top: 460px;
+  left: 140px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+footer .three {
+  position: absolute;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  top: 120px;
+  left: 550px;
+  color: #ffffff;
+}
+footer .four {
+  position: absolute;
+  top: 160px;
+  left: 1114px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+}
+footer .five {
+  position: absolute;
+  top: 460px;
+  left: 1315px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+}
+footer .footericon {
+  position: absolute;
+  left: 640px;
+  top: 298px;
+  margin: 24px;
+}
+footer .footericon img {
+  margin-right: 24px;
+}
+footer i {
+  color: #ffffff;
+}
+.textp button {
+  color: #ffffff;
+  background-color: red;
+  width: 167px;
+  height: 56px;
+  margin-top: 48px;
+  border: none;
+  font-family: Inter;
+  font-size: 20px;
+  display: block;
+}
+.textp .atn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
